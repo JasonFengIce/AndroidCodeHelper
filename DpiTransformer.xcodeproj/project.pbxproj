@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF2E0A6A1D0FA0FF00607C1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2E0A691D0FA0FF00607C1F /* AppDelegate.swift */; };
+		BF2E0A6C1D0FA0FF00607C1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2E0A6B1D0FA0FF00607C1F /* ViewController.swift */; };
+		BF2E0A6E1D0FA0FF00607C1F /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2E0A6D1D0FA0FF00607C1F /* Document.swift */; };
+		BF2E0A711D0FA10000607C1F /* Document.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF2E0A6F1D0FA10000607C1F /* Document.xcdatamodeld */; };
+		BF2E0A731D0FA10000607C1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF2E0A721D0FA10000607C1F /* Assets.xcassets */; };
+		BF2E0A761D0FA10000607C1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF2E0A741D0FA10000607C1F /* Main.storyboard */; };
+		BF2E0A811D0FA10000607C1F /* DpiTransformerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2E0A801D0FA10000607C1F /* DpiTransformerTests.swift */; };
+		BF2E0A8C1D0FA10000607C1F /* DpiTransformerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2E0A8B1D0FA10000607C1F /* DpiTransformerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF2E0A7D1D0FA10000607C1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF2E0A5E1D0FA0FF00607C1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF2E0A651D0FA0FF00607C1F;
+			remoteInfo = DpiTransformer;
+		};
+		BF2E0A881D0FA10000607C1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF2E0A5E1D0FA0FF00607C1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF2E0A651D0FA0FF00607C1F;
+			remoteInfo = DpiTransformer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF2E0A661D0FA0FF00607C1F /* DpiTransformer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DpiTransformer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2E0A691D0FA0FF00607C1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF2E0A6B1D0FA0FF00607C1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF2E0A6D1D0FA0FF00607C1F /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		BF2E0A701D0FA10000607C1F /* Document.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Document.xcdatamodel; sourceTree = "<group>"; };
+		BF2E0A721D0FA10000607C1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF2E0A751D0FA10000607C1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF2E0A771D0FA10000607C1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF2E0A7C1D0FA10000607C1F /* DpiTransformerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DpiTransformerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2E0A801D0FA10000607C1F /* DpiTransformerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DpiTransformerTests.swift; sourceTree = "<group>"; };
+		BF2E0A821D0FA10000607C1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF2E0A871D0FA10000607C1F /* DpiTransformerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DpiTransformerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2E0A8B1D0FA10000607C1F /* DpiTransformerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DpiTransformerUITests.swift; sourceTree = "<group>"; };
+		BF2E0A8D1D0FA10000607C1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF2E0A631D0FA0FF00607C1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2E0A791D0FA10000607C1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2E0A841D0FA10000607C1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF2E0A5D1D0FA0FF00607C1F = {
+			isa = PBXGroup;
+			children = (
+				BF2E0A681D0FA0FF00607C1F /* DpiTransformer */,
+				BF2E0A7F1D0FA10000607C1F /* DpiTransformerTests */,
+				BF2E0A8A1D0FA10000607C1F /* DpiTransformerUITests */,
+				BF2E0A671D0FA0FF00607C1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF2E0A671D0FA0FF00607C1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF2E0A661D0FA0FF00607C1F /* DpiTransformer.app */,
+				BF2E0A7C1D0FA10000607C1F /* DpiTransformerTests.xctest */,
+				BF2E0A871D0FA10000607C1F /* DpiTransformerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF2E0A681D0FA0FF00607C1F /* DpiTransformer */ = {
+			isa = PBXGroup;
+			children = (
+				BF2E0A691D0FA0FF00607C1F /* AppDelegate.swift */,
+				BF2E0A6B1D0FA0FF00607C1F /* ViewController.swift */,
+				BF2E0A6D1D0FA0FF00607C1F /* Document.swift */,
+				BF2E0A721D0FA10000607C1F /* Assets.xcassets */,
+				BF2E0A741D0FA10000607C1F /* Main.storyboard */,
+				BF2E0A771D0FA10000607C1F /* Info.plist */,
+				BF2E0A6F1D0FA10000607C1F /* Document.xcdatamodeld */,
+			);
+			path = DpiTransformer;
+			sourceTree = "<group>";
+		};
+		BF2E0A7F1D0FA10000607C1F /* DpiTransformerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF2E0A801D0FA10000607C1F /* DpiTransformerTests.swift */,
+				BF2E0A821D0FA10000607C1F /* Info.plist */,
+			);
+			path = DpiTransformerTests;
+			sourceTree = "<group>";
+		};
+		BF2E0A8A1D0FA10000607C1F /* DpiTransformerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF2E0A8B1D0FA10000607C1F /* DpiTransformerUITests.swift */,
+				BF2E0A8D1D0FA10000607C1F /* Info.plist */,
+			);
+			path = DpiTransformerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF2E0A651D0FA0FF00607C1F /* DpiTransformer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF2E0A901D0FA10000607C1F /* Build configuration list for PBXNativeTarget "DpiTransformer" */;
+			buildPhases = (
+				BF2E0A621D0FA0FF00607C1F /* Sources */,
+				BF2E0A631D0FA0FF00607C1F /* Frameworks */,
+				BF2E0A641D0FA0FF00607C1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DpiTransformer;
+			productName = DpiTransformer;
+			productReference = BF2E0A661D0FA0FF00607C1F /* DpiTransformer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF2E0A7B1D0FA10000607C1F /* DpiTransformerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF2E0A931D0FA10000607C1F /* Build configuration list for PBXNativeTarget "DpiTransformerTests" */;
+			buildPhases = (
+				BF2E0A781D0FA10000607C1F /* Sources */,
+				BF2E0A791D0FA10000607C1F /* Frameworks */,
+				BF2E0A7A1D0FA10000607C1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF2E0A7E1D0FA10000607C1F /* PBXTargetDependency */,
+			);
+			name = DpiTransformerTests;
+			productName = DpiTransformerTests;
+			productReference = BF2E0A7C1D0FA10000607C1F /* DpiTransformerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF2E0A861D0FA10000607C1F /* DpiTransformerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF2E0A961D0FA10000607C1F /* Build configuration list for PBXNativeTarget "DpiTransformerUITests" */;
+			buildPhases = (
+				BF2E0A831D0FA10000607C1F /* Sources */,
+				BF2E0A841D0FA10000607C1F /* Frameworks */,
+				BF2E0A851D0FA10000607C1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF2E0A891D0FA10000607C1F /* PBXTargetDependency */,
+			);
+			name = DpiTransformerUITests;
+			productName = DpiTransformerUITests;
+			productReference = BF2E0A871D0FA10000607C1F /* DpiTransformerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF2E0A5E1D0FA0FF00607C1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = huibin;
+				TargetAttributes = {
+					BF2E0A651D0FA0FF00607C1F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BF2E0A7B1D0FA10000607C1F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BF2E0A651D0FA0FF00607C1F;
+					};
+					BF2E0A861D0FA10000607C1F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BF2E0A651D0FA0FF00607C1F;
+					};
+				};
+			};
+			buildConfigurationList = BF2E0A611D0FA0FF00607C1F /* Build configuration list for PBXProject "DpiTransformer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF2E0A5D1D0FA0FF00607C1F;
+			productRefGroup = BF2E0A671D0FA0FF00607C1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF2E0A651D0FA0FF00607C1F /* DpiTransformer */,
+				BF2E0A7B1D0FA10000607C1F /* DpiTransformerTests */,
+				BF2E0A861D0FA10000607C1F /* DpiTransformerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF2E0A641D0FA0FF00607C1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2E0A731D0FA10000607C1F /* Assets.xcassets in Resources */,
+				BF2E0A761D0FA10000607C1F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2E0A7A1D0FA10000607C1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2E0A851D0FA10000607C1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF2E0A621D0FA0FF00607C1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2E0A711D0FA10000607C1F /* Document.xcdatamodeld in Sources */,
+				BF2E0A6C1D0FA0FF00607C1F /* ViewController.swift in Sources */,
+				BF2E0A6A1D0FA0FF00607C1F /* AppDelegate.swift in Sources */,
+				BF2E0A6E1D0FA0FF00607C1F /* Document.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2E0A781D0FA10000607C1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2E0A811D0FA10000607C1F /* DpiTransformerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2E0A831D0FA10000607C1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2E0A8C1D0FA10000607C1F /* DpiTransformerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF2E0A7E1D0FA10000607C1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF2E0A651D0FA0FF00607C1F /* DpiTransformer */;
+			targetProxy = BF2E0A7D1D0FA10000607C1F /* PBXContainerItemProxy */;
+		};
+		BF2E0A891D0FA10000607C1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF2E0A651D0FA0FF00607C1F /* DpiTransformer */;
+			targetProxy = BF2E0A881D0FA10000607C1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF2E0A741D0FA10000607C1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF2E0A751D0FA10000607C1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF2E0A8E1D0FA10000607C1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF2E0A8F1D0FA10000607C1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BF2E0A911D0FA10000607C1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DpiTransformer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ismartv.DpiTransformer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF2E0A921D0FA10000607C1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DpiTransformer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ismartv.DpiTransformer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF2E0A941D0FA10000607C1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DpiTransformerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ismartv.DpiTransformerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DpiTransformer.app/Contents/MacOS/DpiTransformer";
+			};
+			name = Debug;
+		};
+		BF2E0A951D0FA10000607C1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DpiTransformerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ismartv.DpiTransformerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DpiTransformer.app/Contents/MacOS/DpiTransformer";
+			};
+			name = Release;
+		};
+		BF2E0A971D0FA10000607C1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DpiTransformerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ismartv.DpiTransformerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DpiTransformer;
+			};
+			name = Debug;
+		};
+		BF2E0A981D0FA10000607C1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DpiTransformerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ismartv.DpiTransformerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DpiTransformer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF2E0A611D0FA0FF00607C1F /* Build configuration list for PBXProject "DpiTransformer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF2E0A8E1D0FA10000607C1F /* Debug */,
+				BF2E0A8F1D0FA10000607C1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF2E0A901D0FA10000607C1F /* Build configuration list for PBXNativeTarget "DpiTransformer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF2E0A911D0FA10000607C1F /* Debug */,
+				BF2E0A921D0FA10000607C1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF2E0A931D0FA10000607C1F /* Build configuration list for PBXNativeTarget "DpiTransformerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF2E0A941D0FA10000607C1F /* Debug */,
+				BF2E0A951D0FA10000607C1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF2E0A961D0FA10000607C1F /* Build configuration list for PBXNativeTarget "DpiTransformerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF2E0A971D0FA10000607C1F /* Debug */,
+				BF2E0A981D0FA10000607C1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BF2E0A6F1D0FA10000607C1F /* Document.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BF2E0A701D0FA10000607C1F /* Document.xcdatamodel */,
+			);
+			currentVersion = BF2E0A701D0FA10000607C1F /* Document.xcdatamodel */;
+			path = Document.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BF2E0A5E1D0FA0FF00607C1F /* Project object */;
+}
